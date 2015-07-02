@@ -14,6 +14,13 @@ int main(int argc, const char * argv[])
 	{
 		NSLog(@"Hello, World!");
 		NSLog(@"Objective C");
+		
+		for (int theIndex = 0; theIndex < 10; theIndex++)
+		{
+			NSLog(@"%d", theIndex);
+		}
+		
+		NSLog(@"after loop log.");
 	}
 	
 	return 0;
