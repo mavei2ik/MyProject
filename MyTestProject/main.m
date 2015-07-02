@@ -12,7 +12,8 @@ int main(int argc, const char * argv[])
 {
 	@autoreleasepool
 	{
-	    NSLog(@"Hello, World!");
+		NSLog(@"Hello, World!");
+		NSLog(@"Objective C");
 	}
 	
 	return 0;
