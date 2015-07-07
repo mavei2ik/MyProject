@@ -21,6 +21,9 @@ int main(int argc, const char * argv[])
 		}
 		
 		NSLog(@"after loop log.");
+		
+		NSInteger theInt = 5 + 5;
+		NSLog(@"%ld", (long)theInt);
 	}
 	
 	return 0;
